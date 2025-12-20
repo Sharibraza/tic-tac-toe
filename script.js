@@ -47,6 +47,10 @@ function checkResult() {
         if (board[a] && board[a] === board[b] && board[a] === board[c]) {
             roundWon = true;
             crackers.play();
+            // // window.confirm(`Player ${currPlayer} wins!`);
+            // if(window.confirm(statusText.textContent).valueOf()){
+            //     restart();
+            // } 
             break;
         }
     }
@@ -61,6 +65,7 @@ function checkResult() {
     if (!board.includes("")) {
         statusText.textContent = `It's a Draw...!`;
         gameActive = false;
+        // window.confirm(statusText.textContent);
         return;
     }
 
@@ -71,13 +76,16 @@ function checkResult() {
 
 // Restart the Game
 const btn = document.getElementById('restart');
-btn.addEventListener("click", () => {
-    board.fill("");
-    cells.forEach(cell => {
-        cell.textContent = "";
+
+function restart() {
+    btn.addEventListener("click", () => {
+        board.fill("");
+        cells.forEach(cell => {
+            cell.textContent = "";
+        })
+        gameActive = true;
+        currPlayer = "X";
+        statusText.textContent = "Player X's turn";
+        crackers.pause();
     })
-    gameActive = true;
-    currPlayer = "X";
-    statusText.textContent = "Player X's turn";
-    crackers.pause();
-})
+}
