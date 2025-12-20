@@ -1,0 +1,151 @@
+# 🎮 Tic-Tac-Toe Game
+
+A classic Tic-Tac-Toe game built with pure HTML, CSS, and JavaScript. This interactive web-based game features a clean, modern design with sound effects and smooth gameplay.
+
+![Tic-Tac-Toe Game](assets/img/main.jpeg)
+
+## ✨ Features
+
+- 🎯 **Classic Gameplay** - Traditional 3x3 grid Tic-Tac-Toe
+- 🎨 **Modern UI** - Clean, responsive design with a purple/black color scheme
+- 🔊 **Sound Effects** - Audio feedback for moves and winning celebrations
+- 👥 **Two Player Mode** - Play with a friend on the same device
+- 🔄 **Restart Functionality** - Easy game reset with a single click
+- 🏆 **Win Detection** - Automatic winner detection with celebratory sounds
+- 🤝 **Draw Detection** - Identifies when the game ends in a tie
+- 📱 **Responsive Design** - Works seamlessly on different screen sizes
+
+## 🚀 Technologies Used
+
+- **HTML5** - Structure and layout
+- **CSS3** - Styling and animations
+- **JavaScript (ES6)** - Game logic and interactivity
+- **Audio API** - Sound effects implementation
+
+## 📋 Prerequisites
+
+No special prerequisites needed! Just a modern web browser:
+- Chrome (recommended)
+- Firefox
+- Safari
+- Edge
+
+## 💻 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Sharibraza/tic-tac-toe.git
+   ```
+
+2. **Navigate to the project directory**
+   ```bash
+   cd tic-tac-toe
+   ```
+
+3. **Open the game**
+   - Simply open `index.html` in your web browser
+   - Or use a local server (e.g., Live Server extension in VS Code)
+
+## 🎮 How to Play
+
+1. **Start the Game** - Open `index.html` in your browser
+2. **Choose Your Symbol** - Click on 'X' or 'O' button at the top (Default is X)
+3. **Make Your Move** - Click on any empty cell in the 3x3 grid
+4. **Take Turns** - Players alternate between X and O
+5. **Win the Game** - Get three of your symbols in a row (horizontal, vertical, or diagonal)
+6. **Restart** - Click the "Restart" button to play again
+
+## 📁 Project Structure
+
+```
+tic-tac-toe/
+│
+├── index.html          # Main HTML file
+├── style.css           # Stylesheet for the game
+├── script.js           # Game logic and functionality
+├── README.md           # Project documentation
+│
+└── assets/
+    ├── img/            # Image assets
+    │   ├── main.jpeg
+    │   ├── main.webp
+    │   └── background.jpg
+    ├── sounds/         # Audio files
+    │   ├── click.mp3
+    │   ├── winning.mp3
+    │   └── crackers.mp3
+    └── celebration.mp4 # Victory celebration video
+```
+
+## 🎯 Game Rules
+
+1. The game is played on a 3x3 grid
+2. Player X always goes first (unless changed)
+3. Players take turns placing their marks (X or O) in empty cells
+4. The first player to get 3 marks in a row (horizontally, vertically, or diagonally) wins
+5. If all 9 cells are filled and no player has 3 in a row, the game is a draw
+
+## 🎨 Features in Detail
+
+### Sound Effects
+- **Click Sound** - Plays when a cell is clicked
+- **Celebration Sound** - Plays when a player wins
+- **Audio Controls** - Sounds are integrated seamlessly into gameplay
+
+### Win Conditions
+The game checks for wins in 8 possible patterns:
+- 3 horizontal rows
+- 3 vertical columns
+- 2 diagonal lines
+
+### UI/UX
+- Purple-themed interface with black background
+- Large, readable text and buttons
+- Hover effects for better interactivity
+- Status updates showing current player's turn
+- Clear win/draw messages
+
+## 🔮 Future Enhancements
+
+Potential features for future versions:
+- [ ] AI opponent with difficulty levels
+- [ ] Score tracking across multiple games
+- [ ] Player name customization
+- [ ] Online multiplayer support
+- [ ] Game history/replay feature
+- [ ] Theme customization options
+- [ ] Mobile app version
+- [ ] Leaderboard system
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature/improvement`)
+6. Create a Pull Request
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👨‍💻 Author
+
+**Sharibraza**
+- GitHub: [@Sharibraza](https://github.com/Sharibraza)
+- Repository: [tic-tac-toe](https://github.com/Sharibraza/tic-tac-toe)
+
+## 🙏 Acknowledgments
+
+- Classic Tic-Tac-Toe game concept
+- Sound effects for enhanced gameplay experience
+- Community feedback and suggestions
+
+---
+
+⭐ If you found this project helpful, please give it a star!
+
+**Made with ❤️ by Sharibraza**
