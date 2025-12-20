@@ -2,8 +2,6 @@
 
 A classic Tic-Tac-Toe game built with pure HTML, CSS, and JavaScript. This interactive web-based game features a clean, modern design with sound effects and smooth gameplay.
 
-![Tic-Tac-Toe Game](assets/img/main.jpeg)
-
 ## ✨ Features
 
 - 🎯 **Classic Gameplay** - Traditional 3x3 grid Tic-Tac-Toe
@@ -22,13 +20,6 @@ A classic Tic-Tac-Toe game built with pure HTML, CSS, and JavaScript. This inter
 - **JavaScript (ES6)** - Game logic and interactivity
 - **Audio API** - Sound effects implementation
 
-## 📋 Prerequisites
-
-No special prerequisites needed! Just a modern web browser:
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
 
 ## 💻 Installation
 
@@ -103,7 +94,7 @@ The game checks for wins in 8 possible patterns:
 - Status updates showing current player's turn
 - Clear win/draw messages
 
-## 🔮 Future Enhancements
+## 🔮 Future Enhancements*
 
 Potential features for future versions:
 - [ ] AI opponent with difficulty levels
@@ -135,15 +126,6 @@ This project is open source and available for use.
 **Sharibraza**
 - GitHub: [@Sharibraza](https://github.com/Sharibraza)
 - Repository: [tic-tac-toe](https://github.com/Sharibraza/tic-tac-toe)
-
-## 🙏 Acknowledgments
-
-- Classic Tic-Tac-Toe game concept
-- Sound effects for enhanced gameplay experience
-- Community feedback and suggestions
-
+  
 ---
-
-⭐ If you found this project helpful, please give it a star!
-
 **Made with ❤️ by Sharibraza**
