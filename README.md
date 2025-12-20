@@ -49,11 +49,10 @@ No special prerequisites needed! Just a modern web browser:
 ## 🎮 How to Play
 
 1. **Start the Game** - Open `index.html` in your browser
-2. **Choose Your Symbol** - Click on 'X' or 'O' button at the top (Default is X)
-3. **Make Your Move** - Click on any empty cell in the 3x3 grid
-4. **Take Turns** - Players alternate between X and O
-5. **Win the Game** - Get three of your symbols in a row (horizontal, vertical, or diagonal)
-6. **Restart** - Click the "Restart" button to play again
+2. **Make Your Move** - Player X starts first; click on any empty cell in the 3x3 grid
+3. **Take Turns** - Players automatically alternate between X and O
+4. **Win the Game** - Get three of your symbols in a row (horizontal, vertical, or diagonal)
+5. **Restart** - Click the "Restart" button to play again
 
 ## 📁 Project Structure
 
@@ -72,7 +71,6 @@ tic-tac-toe/
     │   └── background.jpg
     ├── sounds/         # Audio files
     │   ├── click.mp3
-    │   ├── winning.mp3
     │   └── crackers.mp3
     └── celebration.mp4 # Victory celebration video
 ```
@@ -90,7 +88,6 @@ tic-tac-toe/
 ### Sound Effects
 - **Click Sound** - Plays when a cell is clicked
 - **Celebration Sound** - Plays when a player wins
-- **Audio Controls** - Sounds are integrated seamlessly into gameplay
 
 ### Win Conditions
 The game checks for wins in 8 possible patterns:
