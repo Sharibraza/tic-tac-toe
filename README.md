@@ -1,17 +1,7 @@
 # 🎮 Tic-Tac-Toe Game
 
 A classic Tic-Tac-Toe game built with pure HTML, CSS, and JavaScript. This interactive web-based game features a clean, modern design with sound effects and smooth gameplay.
-
-## ✨ Features
-
-- 🎯 **Classic Gameplay** - Traditional 3x3 grid Tic-Tac-Toe
-- 🎨 **Modern UI** - Clean, responsive design with a purple/black color scheme
-- 🔊 **Sound Effects** - Audio feedback for moves and winning celebrations
-- 👥 **Two Player Mode** - Play with a friend on the same device
-- 🔄 **Restart Functionality** - Easy game reset with a single click
-- 🏆 **Win Detection** - Automatic winner detection with celebratory sounds
-- 🤝 **Draw Detection** - Identifies when the game ends in a tie
-- 📱 **Responsive Design** - Works seamlessly on different screen sizes
+Build when got bored in weekend.
 
 ## 🚀 Technologies Used
 
