@@ -70,15 +70,16 @@ tic-tac-toe/
     │   ├── main.webp
     │   └── background.jpg
     ├── sounds/         # Audio files
-    │   ├── click.mp3
-    │   └── crackers.mp3
+    │   ├── click.mp3       # Click sound effect
+    │   ├── crackers.mp3    # Victory celebration sound
+    │   └── winning.mp3     # Additional sound asset
     └── celebration.mp4 # Victory celebration video
 ```
 
 ## 🎯 Game Rules
 
 1. The game is played on a 3x3 grid
-2. Player X always goes first (unless changed)
+2. Player X always goes first
 3. Players take turns placing their marks (X or O) in empty cells
 4. The first player to get 3 marks in a row (horizontally, vertically, or diagonally) wins
 5. If all 9 cells are filled and no player has 3 in a row, the game is a draw
@@ -86,8 +87,8 @@ tic-tac-toe/
 ## 🎨 Features in Detail
 
 ### Sound Effects
-- **Click Sound** - Plays when a cell is clicked
-- **Celebration Sound** - Plays when a player wins
+- **Click Sound** - Plays when a cell is clicked (click.mp3)
+- **Celebration Sound** - Plays fireworks/crackers sound when a player wins (crackers.mp3)
 
 ### Win Conditions
 The game checks for wins in 8 possible patterns:
