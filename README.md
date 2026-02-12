@@ -3,7 +3,7 @@
 A classic Tic-Tac-Toe game built with pure HTML, CSS, and JavaScript. This interactive web-based game features a clean, modern design with sound effects and smooth gameplay.
 Build when got bored in weekend.
 
-## 🚀 Technologies Used
+## 🚀 Technologies Used :-
 
 - **HTML5** - Structure and layout
 - **CSS3** - Styling and animations
